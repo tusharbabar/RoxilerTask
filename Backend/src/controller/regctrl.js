@@ -15,6 +15,7 @@ exports.login = (req, res) => {
         .catch((err) => {
             console.error("Login error:", err);
         });
+    
 };
 
 exports.register=(req,res)=>{
